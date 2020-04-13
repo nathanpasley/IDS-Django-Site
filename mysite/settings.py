@@ -78,7 +78,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'IDS_DB.db'),
-
+    }
+    'pesticides': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'PEST_DB.db'),
     }
 }
 
